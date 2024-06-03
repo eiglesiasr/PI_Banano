@@ -17,6 +17,7 @@ Ayudando a los agricultures a tomar decisiones más informadas y estratégicas p
 Bajo la metodología CRISP-DM se plantea el desarrollo del proyecto de forma iterativa utilizando componentes de AWS para almancenamiento de Datos en zona RAW (S3) para los insumos sin transformar, y zona Trusted (S3) para las posibles salidas del modelo, asi mismo en dicha zona Trusted se almacenara el modelo final entrenado en formato PKL para ser utilizado por el código potencialmente productivo, tambien se almacenará en dicha zona el scalador entrenado tambien en formato PKL.
 El desarrollo del Proyecto se hará a través de jupyter notebooks los cuales estan en este repositorio en la carpeta [1 Desarrollo del Proyecto], de forma que permitan trazabilidad de los hallazgos y decisiones tomadas en la construcción de la solución analítica.
 
+#### Despliegue del Proyecto
 ![arquitecturaDespliegue](ArquitecturaDespliegueProyecto.png)
 Al tener el modelo final entrenado y almacenado en zona Trusted en Formato PKL asi como el Standarizador en formato PKL, se construye un código en Python (py) que contiene el Pipeline para la ejecución del modelo en producción. Aplicando las transformaciones de datos identificadas y trabajadas durante el desarrollo del proyecto y permitiendo la generación de predicciones hacia la zona Trusted (S3), para su posterior uso/envío de Banafrut y grupos de interés. El código Python así como el modelo ganador y standarizador estan en la carpeta [2 Despliegue] de este repositorio.
 
