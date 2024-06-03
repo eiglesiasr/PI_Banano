@@ -4,11 +4,11 @@ Proyecto Integrador MCDA - EAFIT Semestre 2024-I
 Modelo Analitico que utiliza datos históricos de suelo, climatología y producción de banano en ciertas ubicaciones determinadas, para predecir el rendimiento de la cosecha de la siguiente semana medido como el Peso en KG del racimo.
 Ayudando a los agricultures a tomar decisiones más informadas y estratégicas para mejorar la productividad de las fincas.
 
-##Presentado Por:
-• Isaac Hurtado Rivera
-• Edgard Iglesias Rubio
-• Jorge Mario Zapata Posada
-• Laura Catalina González
+## Presentado Por:
+- Isaac Hurtado Rivera
+- Edgard Iglesias Rubio
+- Jorge Mario Zapata Posada
+- Laura Catalina González
 
 ### Arquitectura del Proyecto
 
