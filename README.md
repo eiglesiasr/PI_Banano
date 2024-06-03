@@ -5,10 +5,10 @@ Modelo Analitico que utiliza datos históricos de suelo, climatología y producc
 Ayudando a los agricultures a tomar decisiones más informadas y estratégicas para mejorar la productividad de las fincas.
 
 ##Presentado Por:
-•Isaac Hurtado Rivera
-•Edgard Iglesias Rubio
-•Jorge Mario Zapata Posada
-•Laura Catalina González
+• Isaac Hurtado Rivera
+• Edgard Iglesias Rubio
+• Jorge Mario Zapata Posada
+• Laura Catalina González
 
 ### Arquitectura del Proyecto
 
