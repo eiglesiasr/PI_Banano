@@ -30,11 +30,11 @@ PI_Banano
 │   
 └───1 Desarrollo del Proyecto                # Notebooks con el desarrollo del proyecto integrador
 |   | 1_Calidad_de_Datos.ipynb               # Validacion de Calidad de Datos
-|   | 2_Seleccion de Variables.ipynb         # Seleccion de variables metodo de correlaciones
-|   | 3_Identificacion_Outliers.ipynb        # Indetificacion de Outliers a traves de d. Mahalanobis
+|   | 2_Identificacion_Outliers.ipynb        # Indetificacion de Outliers a traves de d. Mahalanobis
+|   | 3_Seleccion de Variables.ipynb         # Seleccion de variables metodo de correlaciones
 |   | 4_Imputacion_informacion.ipynb         # Imputacion de información faltante
-|   | 5_Particionamiento_Modelacion.ipynb    # Particionamiento para modelado Train Valid Test
-|   | 6_Ingenieria_Caracteristicas.ipynb     # Modificaciones a los datos y Estandarizacion
+|   | 5_Ingenieria_Caracteristicas.ipynb     # Modificaciones a los datos y Estandarizacion
+|   | 6_Particionamiento_Modelacion.ipynb    # Particionamiento para modelado Train Valid Test
 |   | 7_Competencia_de_modelos.ipynb         # Entrenamiento de Modelos para definir mejor modelo
 |   | 8_Tuneo_Hiperparametros.ipynb          # Tuneo de Hiperparametros de modelos champions
 |   | 9_Seleccion_modelo_final.ipynb         # Seleccion y almacenado de modelo final
