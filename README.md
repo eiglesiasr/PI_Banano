@@ -25,7 +25,8 @@ Al tener el modelo final entrenado y almacenado en zona Trusted en Formato PKL a
 ```
 PI_Banano
 │   README.md                                # Descripcion
-|   diagrama1.png                            # Diagrama de Arquitectura
+|   ArquitecturaDesarrolloProyecto.png       # Diagrama de Arquitectura Desarrollo Proyecto
+|   ArquitecturaDespliegueProyecto.png       # Diagrama de Arquitectura Despliegue Proyecto
 │   
 └───1 Desarrollo del Proyecto                # Notebooks con el desarrollo del proyecto integrador
 |   | 1_Calidad_de_Datos.ipynb               # Validacion de Calidad de Datos
