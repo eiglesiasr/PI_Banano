@@ -10,7 +10,7 @@ Ayudando a los agricultures a tomar decisiones más informadas y estratégicas p
 - Jorge Mario Zapata Posada
 - Laura Catalina González
 
-### Arquitectura del Proyecto
+### Arquitectura del Proyecto 
 
 #### Desarrollo del Proyecto
 ![arquitecturaDesarrollo](ArquitecturaDesarrolloProyecto.png)
