@@ -38,17 +38,21 @@ PI_Banano
 |   | 7_Competencia_de_modelos.ipynb         # Entrenamiento de Modelos para definir mejor modelo
 |   | 8_Tuneo_Hiperparametros.ipynb          # Tuneo de Hiperparametros de modelos champions
 |   | 9_Seleccion_modelo_final.ipynb         # Seleccion y almacenado de modelo final
-|   |
+|   
 └───2 Despliegue                             # Pipeline de ejecución en ambiente Productivo
-|   | Pipeline_Productivo.py                 # Ejecucion de Modelo Utilizando AWS
-|   | config.json                            # Archivo de configuracion para key y tokens AWS
-|   | Standarizador.pkl                      # Standarizador entrenado para uso en Pipeline
-|   | ModeloRegresion.pkl                    # Modelo de Regresion Entrenado para uso en Pipeline
-|   |
+|   | __init__.py                            # Archivo de Python para que puedan importarse funciones de otros archivos py
+|   | main.py                                # Codigo principal del despliegue del modelo
+|   | utils.py                               # Codigo Python con las funciones 
+|   | config.json                            # Archivo de configuracion dinamico para el codigo principal
+|   | requerimientos.txt                     # Archivo con el detalle de las librerias y versiones que necesita el código para funcionar
+|   └───logs 
+|   |   | pi_banano_20240612_164400.log      # Ejemplo de Bitacora
+|   
 └───3 Datos                                  # Creacion de tabla Nativa en Redshift y ETL
-|   └─1 Raw                                  # Carpeta con datos fuentes emulando zona Raw S3
-|   | | Banafrut.csv
-|   | | Ideam.csv
-|   └─2 Trusted                              # Carpeta con datos resultantes emulando zona Trusted S3
-|   | | Modelo_output.csv
+|   └───1 Raw                                # Carpeta con datos fuentes emulando zona Raw S3
+|   |   | Base datos banano.xlsx             # Archivo fuente par el desarrollo del proyecto
+|   └───2 Trusted                            # Carpeta con datos resultantes emulando zona Trusted S3
+|   |   | model_predict.xlsx                 # Ejemplo de Prediccion del modelo
+|   |   | ModeloRegresion.pkl                # Archivo PKL con el modelo final seleccionado
+|   
 ```
