@@ -45,7 +45,7 @@ PI_Banano
 |   └───logs 
 |   |   | pi_banano_20240613_234935.log       # Ejemplo de Bitacora
 |   
-└───3 Datos                                   # Creacion de tabla Nativa en Redshift y ETL
+└───3 Datasets                                # Creacion de tabla Nativa en Redshift y ETL
 |   └───1 Raw                                 # Carpeta con datos fuentes emulando zona Raw S3
 |   |   | Base datos banano.xlsx              # Archivo fuente par el desarrollo del proyecto
 |   |   | Datos_A_Predecir.xlsx               # Archivo de pruebas para el despliegue del modelo
