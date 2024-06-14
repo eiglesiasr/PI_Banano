@@ -1,1 +1,18 @@
+2024-06-13 23:49:35,031 - INFO - Iniciando Ejecucion Proyecto Integrador Banano
+2024-06-13 23:49:35,031 - INFO - Lee Credenciales AWS
+2024-06-13 23:49:35,031 - INFO - Descargando Datos Zona Raw
+2024-06-13 23:49:35,031 - INFO - Descargando archivo: Datos_A_Predecir.xlsx desde S3 Zona Raw
+2024-06-13 23:49:36,420 - INFO - Transformaciones DF
+2024-06-13 23:49:36,420 - INFO - Arreglando Nombre Columnas
+2024-06-13 23:49:36,423 - INFO - Modificando tipos de datos
+2024-06-13 23:49:36,426 - INFO - Agregando Variables Dummies
+2024-06-13 23:49:36,428 - INFO - Agregando Rezagos
+2024-06-13 23:49:36,971 - INFO - Descargando Modelo Zona Trusted
+2024-06-13 23:49:36,971 - INFO - Descargando PKL Modelo: modeloRegresionLasso.pkl desde S3 Zona Trusted
+2024-06-13 23:49:38,012 - INFO - Descarga Exitosa
+2024-06-13 23:49:38,700 - INFO - Realizando Predicciones
+2024-06-13 23:49:38,704 - INFO - Predicciones Realizadas
+2024-06-13 23:49:38,704 - INFO - Escribiendo Predicciones hacia Zona Trusted
+2024-06-13 23:49:38,704 - INFO - Cargando archivo: model_predict_20240613_234938.xlsx hacia S3 Zona Trusted
+2024-06-13 23:49:39,814 - INFO - Programa Ejecutado Exitosamente
 
