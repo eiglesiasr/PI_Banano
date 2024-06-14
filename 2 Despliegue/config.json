@@ -1,0 +1,16 @@
+{
+    "log_dir": "logs",
+
+    "aws_access_key_id":"XXXXXXXXXXXXXX",
+    "aws_secret_access_key":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "aws_session_token":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+
+
+    "BucketRaw":"zonarawpibanano",
+    "ArchivoRaw":"Datos_A_Predecir.xlsx",
+    
+    "BucketTrusted":"zonatrustedpibanano",
+    
+
+    "ModeloRegresion":"modeloRegresionLasso.pkl"
+}
